@@ -41,14 +41,15 @@
                                         pointHoverBackgroundColor: "#111",
                                         pointHoverBorderColor: "rgba(40,40,200,1)",
                                         pointBorderWidth: 1,
-                                        data: [10, 30, 40, 10, 50, 60, 40, 40, 30, 70]
+                                        data: [10, 30, 40, 10, 50, 60, 40, 40, 30, 70],
                                   }]
                                 }, //closes data
                               
                                  // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                        easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                        duration: 450 // general animation time
                                     },
                                 },
                           });
@@ -81,6 +82,7 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
                                      duration: 0 // general animation time
                                     },
                                 },
@@ -111,7 +113,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                           });
@@ -160,7 +163,8 @@
                                  // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 }, 
                           
@@ -192,6 +196,7 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
                                      duration: 0 // general animation time
                                     },
                                 },
@@ -219,7 +224,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                               
@@ -269,7 +275,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                               
@@ -304,6 +311,7 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
                                      duration: 0 // general animation time
                                     },
                                 },
@@ -336,7 +344,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                               

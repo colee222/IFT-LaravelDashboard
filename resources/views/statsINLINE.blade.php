@@ -374,8 +374,10 @@ function getStatisticsX() { //this function is called by the process function be
 //GOJS GNAT topology and link status////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     
     function initx() {
-      var $ = go.GraphObject.make;
-      myDiagram = $(go.Diagram, "GNATconnection");
+    //create and empty diagram    
+      var $ = go.GraphObject.make; // this defines a var as a $ ???very odd? Convetion of GoJS
+      myDiagram = $(go.Diagram, "GNATconnection"); //GNATconnection corresponds to the the div id
+      //Notice that go is the "namespace" in which all GoJS types reside. All code uses of GoJS classes such as Diagram or Node or Panel or Shape or TextBlock will be prefixed with "go.". 
 
       // define all of the gradient brushes
       var graygrad = $(go.Brush, "Linear", { 0: "#F5F5F5", 1: "#F1F1F1" });
@@ -704,7 +706,7 @@ process();
      
       
 <!-- IFT Script for connection animation-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/2.1.2/go-debug.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gojs/2.1.2/go-debug.js"></script> <!-- this is the script for the GoJS which we use for the animation-->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.1.2/Chart.min.js"></script>
 
       

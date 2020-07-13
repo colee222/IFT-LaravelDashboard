@@ -28,7 +28,7 @@
     
     
 <!--TODO this is loading the fcn for the animation. Not ideal. Needs Cleaning -->    
-  <body class="nav-md" onload="initx()">
+  <body class="nav-md" onload="initx()"> <!--on load execute a script once a web page has completely loaded all content (including images, script files, CSS files, etc.). initx() function is called for the GOJS GNAT topology and link status-->
     <div class="container body"> <!-- the whole body -->
       <div class="main_container">
  

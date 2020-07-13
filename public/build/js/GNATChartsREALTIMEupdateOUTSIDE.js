@@ -49,7 +49,8 @@
                                  // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                           });
@@ -112,7 +113,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                           });
@@ -161,7 +163,8 @@
                                  // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 }, 
                           
@@ -220,7 +223,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                               
@@ -270,7 +274,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                               
@@ -337,7 +342,8 @@
                                // Configuration options go here
                                 options: {
                                     animation: {
-                                     duration: 0 // general animation time
+                                     easing: 'easeOutQuint', //https://www.chartjs.org/docs/master/configuration/animations/ https://easings.net/
+                                     duration: 450 // general animation time
                                     },
                                 },
                               
