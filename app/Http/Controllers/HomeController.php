@@ -46,9 +46,24 @@ class HomeController extends Controller
     {
         return view('trafficFlow');
     }
-    
     public function TFAnimationindex()
     {
         return view('TFAnimation');
+    }
+    public function TFAnimationGlobalindex()
+    {
+        return view('TFAnimationGlobal');
+    }
+    public function chartFigindex()
+    {
+        return view('chartFig');
+    }
+    public function contactindex()
+    {
+        return view('contact');
+    }
+    public function usrAcctindex()
+    {
+        return view('usrAcct');
     }
 }

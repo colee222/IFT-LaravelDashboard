@@ -25,3 +25,11 @@ Route::get('/statsINLINE', 'HomeController@statsINLINEindex')->name('statsINLINE
 Route::get('/statsOUTSIDE', 'HomeController@statsOUTSIDEindex')->name('statsOUTSIDE');
 Route::get('/trafficFlow', 'HomeController@trafficFlowindex')->name('trafficFlow');
 Route::get('/TFAnimation', 'HomeController@TFAnimationindex')->name('TFAnimation');
+Route::get('/TFAnimationGlobal', 'HomeController@TFAnimationGlobalindex')->name('TFAnimationGlobal');
+Route::get('/chartFig', 'HomeController@chartFigindex')->name('chartFig');
+Route::get('/contact', 'HomeController@contactindex')->name('contact');
+Route::get('/usrAcct', 'HomeController@usrAcctindex')->name('usrAcct');
+
+Route::get('/home', 'ChartsContoller@index')->name('chart');
+Route::post('/home/post', 'ChartsContoller@post');
+Route::post('/home/selection', 'ChartsContoller@selection');

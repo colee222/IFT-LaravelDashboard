@@ -802,7 +802,7 @@
   content: "\e260"; }
 
 .left_col {
-  background: #2A3F54; }
+  background: rgb(17,55,92); }
 
 .container {
   width: 100%;
@@ -1664,7 +1664,9 @@ h2 {
 .x_title {
   border-bottom: 2px solid #E6E9ED;
   padding: 1px 5px 6px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px; 
+  resize: vertical;
+  overflow: auto; }
 
 .x_title .filter {
   width: 40%;
@@ -1691,6 +1693,15 @@ h2 {
   float: left;
   clear: both;
   margin-top: 5px; }
+
+.x_content_hidden {
+  padding: 0 3px 6px;
+  position: relative;
+  width: 100%;
+  float: left;
+  clear: both;
+  margin-top: 5px;
+  display: none !important; }
 
 .x_content h4 {
   font-size: 16px;

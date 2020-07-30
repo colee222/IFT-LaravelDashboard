@@ -8,6 +8,8 @@
  */
 (function($,sr){
     // debouncing function from John Hann
+    // Used for You want to execute a function only once, coalescing multiple sequential calls into a single execution at the beginning or end.
+    // https://coffeescript-cookbook.github.io/chapters/functions/debounce
     // http://unscriptable.com/index.php/2009/03/20/debouncing-javascript-methods/
     var debounce = function (func, threshold, execAsap) {
       var timeout;
